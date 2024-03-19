@@ -1,0 +1,195 @@
+html {
+    font-family: Heebo;
+}
+
+#titulo {
+    height: 15%;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    width: 1054px;
+    height: 706px;
+    background-image: url(../img/fondo-champions.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.partido {
+    width: 80%;
+    height: 80%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+td {
+    width: 33.33%;
+    height: 25%;
+    margin: 0;
+    vertical-align: center;
+}
+
+th {
+    width: 100%;
+    height: 15%;
+    margin: 0;
+    vertical-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+/* Bloques */
+
+.partido {
+    width: 80%;
+    height: 80%;
+}
+
+#partido-cuartos-1 {
+    transform: translate(19px, 0px)
+}
+
+#partido-final-1 {
+    transform: translate(35px, 18px)
+}
+
+#partido-cuartos-3 {
+    transform: translate(19px, 0px)
+}
+
+#partido-cuartos-2 {
+    transform: translate(48px, 0px)
+}
+
+#partido-cuartos-4 {
+    transform: translate(48px, 0px)
+}
+
+#partido-semifinales-1 {
+    transform: translate(64px, 0px)
+}
+
+#partido-semifinales-2 {
+    transform: translate(0px, 0px)
+}
+
+#bloque-logo {
+    height: 10%;
+}
+
+button {
+    margin: 2rem;
+    padding: 0.2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #00bcd4;
+    color: white;
+    height: 2rem;
+    width: 18rem;
+    border: #87afb1;
+}
+
+button:hover {
+    background-color: #8dd0d4;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #007780;
+    transform: scale(0.95);
+}
+
+.partido div {
+    height: 33.33%;
+    width: 100%;
+    border: 1px solid #425676;
+}
+
+.equipo {
+    background-size: cover;
+    background-position: center;
+}
+
+.detalles {
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    line-height: 2.8rem;
+    font-size: 1.3rem;
+    letter-spacing: -0.02rem;
+}
+
+#logoepdata {
+    width: 7rem;
+    transform: translate(29rem)
+}
+
+/* Desplegables */
+
+.content {
+    border: 1px solid #ddd;
+    margin-top: 5px;
+}
+
+.dropdown button {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown button:hover {
+    background-color: #e7e7e7;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#panel {
+    display: flex;
+    width: 1054px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.desplegable-partido {
+    padding: 2rem;
+    background-color: #ececec;
+}
+
+label {
+    color: rgb(180, 180, 180);
+    margin: 0.5rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    border: none;
+    height: 1px;
+}
+
+.titulo-partido-panel {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.manejador-final-1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
