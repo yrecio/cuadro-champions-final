@@ -73,10 +73,3 @@ function actualizarDatos(datos) {
         }
     });
 }
-
-
-
-
-
-
-
