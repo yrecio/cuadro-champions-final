@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('../json/partidos.json')
+    fetch('https://yrecio.github.io/cuadro-champions-final/json/partidos.json')
     .then(response => response.json())
     .then(datos => {
         mostrarInfo(datos);
