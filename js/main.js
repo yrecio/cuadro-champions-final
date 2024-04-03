@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    fetch('../json/partidos.json')
+    fetch('https://yrecio.github.io/cuadro-champions-final/json/partidos.json')
     .then(response => response.json())
     .then(datos => {
         mostrarInfo(datos);
@@ -58,7 +58,7 @@ function actualizarDatos(datos) {
                 // Ajuste para manejar datos vacíos
                 let nombreEquipo = datos[fase][`partido ${numero}`] ? datos[fase][`partido ${numero}`][tipo] : "";
                 let rutaImagen = nombreEquipo && datos["rutas-img"][nombreEquipo] ? datos["rutas-img"][nombreEquipo] : 'sin-datos';
-                equipo.style.backgroundImage = `url('https://yrecio.github.io/cuadro-champions-final/img/equipos/${rutaImagen}.png')`;
+                equipo.style.backgroundImage = `url('img/equipos/${rutaImagen}.png')`;
 
                 partido.appendChild(equipo);
             });
