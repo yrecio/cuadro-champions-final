@@ -152,22 +152,6 @@ button:active {
 
 /* Desplegables */
 
-.content {
-    border: 1px solid #ddd;
-    margin-top: 5px;
-}
-
-.dropdown button {
-    padding: 10px;
-    background-color: #f9f9f9;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown button:hover {
-    background-color: #e7e7e7;
-}
-
 textarea {
     width: 100%;
     padding: 12px 20px;
@@ -186,36 +170,6 @@ textarea {
     text-align: center;
     align-items: center;
     flex-direction: column
-}
-
-.desplegable-partido {
-    padding: 2rem;
-    background-color: #ececec;
-}
-
-label {
-    color: rgb(180, 180, 180);
-    margin: 0.5rem;
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    background-color: #ffffff;
-    border: none;
-    height: 1px;
-}
-
-.titulo-partido-panel {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.manejador-final-1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-
 }
 
 #seccion-actualizar-datos {
