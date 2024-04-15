@@ -9,30 +9,28 @@
         "Manchester City": "city",
         "Atlético de Madrid": "atletico"
     },
-
     "cuartos": {
         "partido 1": {
-            "local": "Atlético de Madrid",
-            "visitante": "Borussia Dortmund",
-            "detalles": "10 Abr. (Ida) / 16 Abr. (Vuelta)"
+            "local": "Borussia Dortmund",
+            "visitante": "Atlético de Madrid",
+            "detalles": "2 - 2 (Ida) / 16 Abr. (Vuelta)"
         },
         "partido 2": {
-            "local": "Arsenal",
-            "visitante": "FC Bayern",
-            "detalles": "9 Abr. (Ida) / 17 Abr. (Vuelta)"
+            "local": "FC Bayern",
+            "visitante": "Arsenal",
+            "detalles": "2 - 2 (Ida) / 17 Abr. (Vuelta)"
         },
         "partido 3": {
             "local": "Paris Saint Germain",
             "visitante": "FC Barcelona",
-            "detalles": "10 Abr. (Ida) / 16 Abr. (Vuelta)"
+            "detalles": "2 - 3 (Ida) / 16 Abr. (Vuelta)"
         },
         "partido 4": {
-            "local": "Real Madrid",
-            "visitante": "Manchester City",
-            "detalles": "9 Abr. (Ida) / 17 Abr. (Vuelta)"
+            "local": "Manchester City",
+            "visitante": "Real Madrid",
+            "detalles": "3 - 3 (Ida) / 17 Abr. (Vuelta)"
         }
     },
-
     "semifinales": {
         "partido 1": {
             "local": "",
@@ -45,7 +43,6 @@
             "detalles": ""
         }
     },
-
     "final": {
         "partido 1": {
             "local": "",
